@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+.modal-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  opacity: 0.6;
+  margin: 0;
+  padding: 0;
+}
+
+.modal {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+}
+
+.suggestions {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  max-height: 240px;
+  margin: 0;
+  margin-top: 5px;
+  overflow: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.suggestion {
+  padding: 8px 4px;
+  cursor: pointer;
+  backgroundcolor: white;
+  list-style: none;
+}
